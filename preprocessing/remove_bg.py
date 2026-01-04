@@ -3,15 +3,10 @@ from rembg import remove
 from PIL import Image
 from concurrent.futures import ThreadPoolExecutor
 
-# -----------------------------------------------------------------------------
-# CONFIGURATION
-# -----------------------------------------------------------------------------
 INPUT_DIR = "scene/images"           # The folder created by the rename script
 OUTPUT_DIR = "scene/images_clean"    # Where transparent PNGs go
 
-# -----------------------------------------------------------------------------
-# MAIN SCRIPT
-# -----------------------------------------------------------------------------
+
 def process_file(filename):
     input_path = os.path.join(INPUT_DIR, filename)
     output_path = os.path.join(OUTPUT_DIR, os.path.splitext(filename)[0] + ".png")
