@@ -197,8 +197,12 @@ Using the trained model:
 - Frames are rendered at each angle
 - Frames are combined into a video
 
-📁 **Output:** `Test Videos/`
 
+![ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/fafb94fa-bff8-4204-a9b2-2d6877f66aee)
+
+-Tiny nerf and trained for a short time with lower quality
+
+📁 **Output:** `Test Videos/`
 This provides an intuitive visualization of the reconstructed scene.
 
 ---
